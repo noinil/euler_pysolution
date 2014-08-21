@@ -13,10 +13,10 @@ def fac_list(n):
 def fac_sum(n):
     return sum(fac_list(n))
 
-a =[]
-
 if __name__ == "__main__":
     N = 10000
+    a =[]
+
     for i in range(2, N+1):
         j = fac_sum(i)
         if j > i == fac_sum(j):
