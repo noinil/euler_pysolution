@@ -30,3 +30,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    # P1020 , P1912
+    # Answer: 5482660
