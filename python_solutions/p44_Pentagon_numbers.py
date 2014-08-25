@@ -2,25 +2,31 @@
 
 def is_pentagon(n):
     import math
-    for i in range(1, int(math.sqrt(n))):
-        if n == i * ( 3 * i - 1) // 2:
-            return True
+    i = int(math.sqrt(24 * n + 1))
+    if i * i == 24 * n + 1 and i % 6 == 5:
+        return True
     else:
         return False
 
 
 def main():
-    i = 10000
+    i = 1
     while True:
         bi = i * ( 3 * i - 1) // 2
-        for j in range(2, int((bi - 1) // 3) + 1):
+        for j in range(i, int((bi - 1) // 3) + 1):
             aj = j * ( 3 * j - 1) // 2
-            if is_pentagon(aj + bi) and is_pentagon(aj * 2+ bi):
-                print(bi)
-                return
-        else:
-            print(i, bi)
-            i = i + 1
+            c = aj + bi
+            d = aj * 2 + bi
+            e = aj + bi * 2
+            if is_pentagon(c):
+                print("P", i, "P", j)
+                if is_pentagon(d):
+                    print(bi)
+                    return
+                if is_pentagon(e):
+                    print(aj)
+                    return
+        i = i + 1
 
 if __name__ == '__main__':
     main()
