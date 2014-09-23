@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python
 
 def fibo(n):
     fiboseries = []
@@ -8,5 +8,8 @@ def fibo(n):
         fiboseries.append(a)
     return fiboseries
 
-if __name__ == "__main__":
+def main():
     print(sum(i for i in fibo(4000000) if i%2==0))
+
+if __name__ == '__main__':
+    main()
