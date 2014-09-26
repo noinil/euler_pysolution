@@ -1,11 +1,11 @@
-#!/bin/env python
+#!/usr/bin/env python
 
 import math
 
 mat = []
 row = []
 
-with open('../data/p18_triangle.data', 'r') as f:
+with open('../data/p018_triangle.data', 'r') as f:
     for line in f:
         for i in line.split():
             row.append(int(i))

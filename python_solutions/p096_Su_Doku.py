@@ -244,7 +244,7 @@ def solve_sudoku(s):
 
 def main():
     mat_sudoku = []
-    with open("../data/p96_sudoku.txt", "r") as fin:
+    with open("../data/p096_sudoku.txt", "r") as fin:
         loc_mat = []
         for line in fin:
             if line.split()[0] == "Grid":

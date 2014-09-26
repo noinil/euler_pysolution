@@ -4,7 +4,7 @@ mat = []
 row = []
 multi = 1
 
-with open('../data/p11_grid.data', 'r') as f:
+with open('../data/p011_grid.data', 'r') as f:
     for lines in f:
         row.clear()
         for s in lines.split():

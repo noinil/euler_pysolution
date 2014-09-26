@@ -4,7 +4,7 @@ import math
 
 def main():
     maxlog, line_number, i = 0, 0, 0
-    with open("../data/p99_base_exp.txt", "r") as fin:
+    with open("../data/p099_base_exp.txt", "r") as fin:
         for line in fin:
             i += 1
             a, b = int(line.split(',')[0]), int(line.split(',')[1])
