@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def last_10_multiply(n, m):
     if n > 10**10:

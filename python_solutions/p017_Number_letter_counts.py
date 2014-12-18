@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python3
 
 def digit_num(i):
     digi_str_0_ = {1 : 3, 2 : 3, 3 : 5, 4 : 4, 5 : 4,\

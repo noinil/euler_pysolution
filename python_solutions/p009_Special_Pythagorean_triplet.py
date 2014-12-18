@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python3
 
 def a(m, n):
     return abs(m * m - n * n)

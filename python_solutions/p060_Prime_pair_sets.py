@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from p37_Truncatable_primes import is_prime as isp
 

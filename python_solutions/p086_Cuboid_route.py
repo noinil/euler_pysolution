@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def int_cube(x0, y0):
     z2 = x0 * x0 - y0 * y0

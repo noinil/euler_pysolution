@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python3
 
 y = 1900
 m = 1

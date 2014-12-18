@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def solve_sudoku(s):
     bin_full = 2 ** 9 - 1                    # 0b111111111

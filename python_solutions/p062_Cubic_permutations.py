@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def cube_digi_score(n):
     s = str(n*n*n)

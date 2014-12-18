@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def u(n):
     return sum( (-n) ** i for i in range(0, 11))

@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python3
 
 import sympy as sp
 import math

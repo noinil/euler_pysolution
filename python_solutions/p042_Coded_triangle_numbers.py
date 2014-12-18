@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def alpha_value(s):
     return sum([ord(i) - ord('A') + 1 for i in s])

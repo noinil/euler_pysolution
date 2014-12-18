@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def main():
     a = []
     pscd = []
-    with open("../data/p79_keylog.txt", "r") as f:
+    with open("../data/p079_keylog.txt", "r") as f:
         for line in f:
             s = line.split()[0]
             ll = [int(i) for i in list(s)]

@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/bin/env python3
 
 def is_palindrome(x):
     s = str(x)

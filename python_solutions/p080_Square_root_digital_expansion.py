@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def f(n):
     x, m = int(n ** 0.5), 1

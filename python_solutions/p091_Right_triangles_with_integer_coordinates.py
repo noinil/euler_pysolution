@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def is_right_triangle(x1, y1, x2, y2):
     dx = x1 - x2
